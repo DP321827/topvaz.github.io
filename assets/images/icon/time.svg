@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1678BA;}
+	.st1{fill:url(#SVGID_1_);}
+	.st2{fill:#1781C9;}
+	.st3{fill:#1B85CC;}
+	.st4{fill:url(#SVGID_2_);}
+	.st5{fill:url(#SVGID_3_);}
+	.st6{fill:none;stroke:url(#SVGID_4_);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<g>
+	<circle class="st0" cx="19.7" cy="19.9" r="10.8"/>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="21.204" y1="30.6757" x2="21.204" y2="9.1357">
+		<stop  offset="0" style="stop-color:#1DA0F9"/>
+		<stop  offset="1" style="stop-color:#40B0FC"/>
+	</linearGradient>
+	<path class="st1" d="M21.2,9.1c-5.9,0-10.8,4.8-10.8,10.8c0,5.9,4.8,10.8,10.8,10.8c6,0,10.8-4.8,10.8-10.8
+		C32,14,27.1,9.1,21.2,9.1z M20.3,28.7c-4.8,0-8.7-3.9-8.7-8.8c0-4.8,3.9-8.8,8.7-8.8c4.8,0,8.8,3.9,8.8,8.8
+		C29,24.7,25.1,28.7,20.3,28.7z"/>
+	<circle class="st2" cx="21.2" cy="19.9" r="8.8"/>
+	<path class="st3" d="M29.9,19.9c0,4.8-3.9,8.8-8.8,8.8c-0.1,0-0.3,0-0.5,0c-4.6-0.2-8.3-4.1-8.3-8.7s3.7-8.5,8.3-8.7
+		c0.2,0,0.3,0,0.5,0C26,11.2,29.9,15.1,29.9,19.9z"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="19.3464" y1="19.9174" x2="10.1471" y2="20.0263">
+		<stop  offset="0" style="stop-color:#1DA0F9"/>
+		<stop  offset="1" style="stop-color:#4AB5FD"/>
+	</linearGradient>
+	<path class="st4" d="M20.7,28.6c-0.1,0-0.3,0-0.4,0c-4.8,0-8.7-3.9-8.7-8.8c0-4.8,3.9-8.8,8.7-8.8c0.1,0,0.3,0,0.4,0
+		c-4.6,0.2-8.3,4.1-8.3,8.7S16.1,28.4,20.7,28.6z"/>
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="20.7491" y1="11.1657" x2="20.7491" y2="28.6457">
+		<stop  offset="0" style="stop-color:#EAEFFF"/>
+		<stop  offset="1" style="stop-color:#E0E7FF"/>
+	</linearGradient>
+	<ellipse class="st5" cx="20.7" cy="19.9" rx="8.3" ry="8.7"/>
+	
+		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="22.6403" y1="28.9655" x2="22.6403" y2="21.5944" gradientTransform="matrix(1 0 0 -1 0 42)">
+		<stop  offset="0" style="stop-color:#ECA460"/>
+		<stop  offset="1" style="stop-color:#FFA17B"/>
+	</linearGradient>
+	<path class="st6" d="M20.5,14.7v5.7h4.2"/>
+</g>
+</svg>
