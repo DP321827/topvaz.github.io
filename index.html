@@ -1,2093 +1,1133 @@
 
-
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
+	<head>
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=0.9, shrink-to-fit=no" />
+		<title>topVAZ - Play games online at topVAZ games</title>
+			<link rel="icon" href="/database/topvaz.com/favicon.png" sizes="32x32">
+		<meta name="description" content="Play HTML5 Games for Free">
+		<link rel="stylesheet" type="text/css" href="file:///D:/Game-Store/my-Github/topvaz.github.io/assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="file:///D:/Game-Store/my-Github/topvaz.github.io/assets/css/jquery-comments.css" />
+		<link rel="stylesheet" type="text/css" href="file:///D:/Game-Store/my-Github/topvaz.github.io/assets/css/user.css" />
+		<link rel="stylesheet" type="text/css" href="file:///D:/Game-Store/my-Github/topvaz.github.io/assets/css/style.css" />
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-	<title>topVAZ Games - Play games online at topVAZ</title> 
-	
-		<meta name="description" content="">
-	<link rel="stylesheet" type="text/css" href="/assets/css/normalize.css"> <!-- recheck -->
-
-	<link rel="stylesheet" type="text/css" href="/assets/css/bulma.min.css">
-	<link rel="stylesheet" type="text/css" href="/assets/css/jquery.mCustomScrollbar.min.css" media="print" onload="this.media='all'">
-	<link rel="preconnect" type="text/css" href="https://fonts.googleapis.com">
-	<link rel="preconnect" type="text/css" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="preload" as="style" onload="this.rel='stylesheet'">
-	<link rel="stylesheet" type="text/css" href="/assets/css/jquery-comments.css" media="print" onload="this.media='all'">
-	<link rel="stylesheet" type="text/css" href="/assets/css/user.css">
-	<link rel="stylesheet" type="text/css" href="/assets/css/main.css">
-	<link rel="stylesheet" type="text/css" href="/assets/css/skin/default.css" media="print" onload="this.media='all'">
-	<link rel="stylesheet" type="text/css" href="/assets/css/custom.css" media="print" onload="this.media='all'">
-
-
-
-	</head>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+		<!-- Font Awesome icons (free version)-->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<!-- Google fonts-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+		
 
 
-<body>
-	<div class="master">
-	<div class="sidebar">
-	<div class="side-header">
-	<div class="burger for-mobile">
-	<span class="icon-burger"></span>
-	</div>
-	
-	
-	<a class="logo" href="/">
-	<!-- <img src="#" alt="logo" width="228" height="40"> -->
-	Domain.com
-	</a>
-	
+</head>
+
+	<body id="page-top">
+		<!-- Navigation-->
+		<nav class="navbar navbar-expand-lg navbar-dark top-nav" id="mainNav">
+			<div class="container">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<a class="navbar-brand js-scroll-trigger" href=""><span class="site-logo" alt="site-logo"><strong>	
+									<img src="file:///D:/Game-Store/my-Github/topvaz.github.io/assets/images/topvaz_logo.png" alt="topVAZ Games logo" width="70" height="35">
+				
+				</strong> </span></a>
+
+				<div class="navbar-collapse collapse" id="nav-menu">
+					<ul class="navbar-nav">
+					<!-- 	<li class="nav-item "><a class="nav-link " href="/top-players">Top Players</a></li> -->
+						<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Arcade</a>
+							<ul role="menu"  class="dropdown-menu">
+
+								<li><a class="dropdown-item" href="/car">Car</a></li>
+
+								<li><a class="dropdown-item" href="/shooting">Shooting</a></li>
+
+								<li><a class="dropdown-item" href="/action">Action</a></li>
+
+								<li><a class="dropdown-item" href="/multiplayer">Multiplayer</a></li>
+
+								<li><a class="dropdown-item" href="/sports">Sports</a></li>
+
+														
 
 
-	
-	<div class="bt-more for-mobile">
-	<span class="icon-ellipsis"></span>
-	</div>
-	</div>
-	<ul class="side-menu mCustomScrollbar" data-mcs-theme="dark">
+						</ul>
 
-
-
-		<li class="category-item ">
-		<a href="/hotg">
-		<span class="g-icon"><img src="/assets/images/icon/fire.svg" alt="Action" width="40" height="40"></span>Hot G </a>
-		</li>
-
-
+					</li>
+		
+					</ul>
+											<input style="width:300px; height: 35px;" class="search" type="text" id="searchbar" onkeyup="search_animal()" name="search" placeholder="Search..">
 
 <!-- 
-		<li class="category-item ">
-		<a href="https://techgai.com/hotg/">
-		<span class="g-icon"><img src="/assets/images/icon/fire.svg" alt="Action" width="40" height="40"></span>Hot G #2</a>
-		</li>
+					<form class="form-inline my-2 my-lg-0 search-bar" action="/index.php">
+						<div class="input-group">
+							<input type="hidden" name="viewpage" value="search" />
+							<i class="bi bi-search"></i>
+							<input type="text" class="form-control search" placeholder="Search game" name="slug" minlength="2" required />
+						</div>
+					</form> -->
 
+					
+								</div> <!-- end nav-menu -->
+				<div class="d-none d-lg-block" style="padding-left: 10px;">
+					<!-- <a class="nav-link " href="/playroblox">Roblox</a>	 -->
+				</div>
+				<div class="d-none d-lg-block" style="padding-left: 10px;">
+					<a class="nav-link" rel="nofollow" target="_blank" href="https://topvaz.com">topvaz.com</a>	
+				</div>
+
+
+
+
+			</div>
+		</nav>	<!-- end navbar -->	
+
+
+
+
+		<section class="section-header">
+			<div class="container">
+				<div class="header-area">
+					<div class="masthead-title">
+						<h1>Play on your Browser</h1>
+					</div>
+					<div class="masthead-description">
+						<h3>Unblocked at school</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="container">
+			<div class="row">
+				<div class="mb-5 mb-lg-0">
+<!-- 					<h4 class="">New Unblocked Links <span style="font-size:13px;"> (Last updated on 04/14/2023)</span></h4>
+					<div></div> -->
+	
+						<!-- <a rel="nofollow" target="_blank" href="xxx">xxx</a>,		 -->
+				</div>
+				
+<!-- 				<div class="col-lg-4 mb-5 mb-lg-0">
+					<h4 class="">FOOTER 2</h4>x2222				</div>
+				<div class="col-lg-4">
+					<h4 class="">FOOTER 3</h4>x333			</div>
+			
  -->
 
-
-
-
-
-
-
-
-
-	<!-- 	<li class="category-item ">
-		<a href="/category/minecraft/">
-		<span class="g-icon"><img src="/assets/images/icon/other.svg" alt="Minecrart" width="40" height="40"></span>Minecraft</a>
-		</li>
-		 -->
-		<li class="category-item ">
-		<a href="/category/action/">
-		<span class="g-icon"><img src="/assets/images/icon/actions.svg" alt="Action" width="40" height="40"></span> Action </a>
-		</li>
-
-		<li class="category-item ">
-		<a href="/category/car/">
-		<span class="g-icon"><img src="/assets/images/icon/other.svg" alt="Car" width="40" height="40"></span> Car </a>
-		</li>
-
-		<li class="category-item ">
-		<a href="/category/multiplayer/">
-		<span class="g-icon"><img src="/assets/images/icon/multiplayer.svg" alt="Multiplayer" width="40" height="40"></span> Multiplayer </a>
-		</li>
-
-		<li class="category-item ">
-		<a href="/category/shooting/">
-		<span class="g-icon"><img src="/assets/images/icon/other.svg" alt="Shooting" width="40" height="40"></span> Shooting </a>
-		</li>
-		<li class="category-item ">
-		<a href="/category/sports/">
-		<span class="g-icon"><img src="/assets/images/icon/sport.svg" alt="Sports" width="40" height="40"></span> Sports </a>
-		</li>
-
-
-
-	</ul>
-	</div>
-	<div class="g-content">
-	<section class="header">
-	<div class="columns">
-
-		<div class="column is-4">
-
-				<input style="width:300px; height: 35px;" class="search" type="text" id="searchbar" onkeyup="search_animal()" name="search" placeholder="Search..">
-				</div>
-	<div class="column is-8">
-	<ul class="main-menu nav-menu">
-
-
-
-		<li class="nav-item">
-		<a target="_blank" class="nav-link" href="/hotg/">Hot G</a> </li>
-
-
-	</ul>
-	</div>
-	</div>
-	</section>
-
-
-
-<section class="banner">
-	<div class="container" align="center">
-<!-- ads -->
-	</div>
-</section>
-
-
-<section class="new-g">
-	<div class="container">
-		<div class="columns">
-			<div class="column is-12">
-			<div class="section-title">
-			<h3>
-			<span class="g-icon"><img src="assets/images/icon/rocket.svg" alt="" width="40" height="40"></span> All G </h3>
-			</div>
 			</div>
 		</div>
-		<div class="columns is-multiline listing" id="listing1">
-<!-- 
-			<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-				<div title="Slope" class="g-card ">
-					<a href="/go/slope.html">
-						<div class="pic">
-						<figure class="ratio ratio-1">
-						
-						<img src="/images/slope.webp" class="small-thumb" alt="Slope">
-						
-						</figure>
-						</div>
-						<div class="g-info">
-						<h3 class="grid-title ellipsis">
-						Slope
-						</h3>
 
-						</div>
 
-					</a>
-				</div>
-			</div> 
 
- -->
 
+		<div class="container">
+	<div class="category-list-global">
+		<ul class="category-list-wrapper">
 
-
-			<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Slope" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/slope.html">
-			<img src="images/slope.webp" class="small-thumb" alt="Slope">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/slope.html">Slope</a>
-			</h3>
-			<a href="/go/slope.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-			<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Moto X3m" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/moto-x3m.html">
-			<img src="images/moto-x3m.webp" class="small-thumb" alt="Moto X3m">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/moto-x3m.html">Moto X3m</a>
-			</h3>
-			<a href="/go/moto-x3m.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Subway Surfers" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/subway-surfers.html">
-			<img src="images/subway-surfers.webp" class="small-thumb" alt="Subway Surfers">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/subway-surfers.html">Subway Surfers</a>
-			</h3>
-			<a href="/go/subway-surfers.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Temple Run 2" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/temple-run-2.html">
-			<img src="images/temple-run-2.webp" class="small-thumb" alt="Temple Run 2">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/temple-run-2.html">Temple Run 2</a>
-			</h3>
-			<a href="/go/temple-run-2.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Burrito Bison" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/burrito-bison.html">
-			<img src="images/burrito-bison.webp" class="small-thumb" alt="Burrito Bison">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/burrito-bison.html">Burrito Bison</a>
-			</h3>
-			<a href="/go/burrito-bison.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Geometry Dash" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/geometry-dash.html">
-			<img src="images/geometry-dash.webp" class="small-thumb" alt="Geometry Dash">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/geometry-dash.html">Geometry Dash</a>
-			</h3>
-			<a href="/go/geometry-dash.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Friday Night Funkin" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/friday-night-funkin.html">
-			<img src="images/friday-night-funkin.webp" class="small-thumb" alt="Friday Night Funkin">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/friday-night-funkin.html">Friday Night Funkin</a>
-			</h3>
-			<a href="/go/friday-night-funkin.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Cut The Rope" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/cut-the-rope.html">
-			<img src="images/cut-the-rope.webp" class="small-thumb" alt="Cut The Rope">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/cut-the-rope.html">Cut The Rope</a>
-			</h3>
-			<a href="/go/cut-the-rope.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Bad Ice Cream" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/bad-ice-cream.html">
-			<img src="images/bad-ice-cream.webp" class="small-thumb" alt="Bad Ice Cream">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/bad-ice-cream.html">Bad Ice Cream</a>
-			</h3>
-			<a href="/go/bad-ice-cream.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Merge Round Racers" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/merge-round-racers.html">
-			<img src="images/merge-round-racers.webp" class="small-thumb" alt="Merge Round Racers">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/merge-round-racers.html">Merge Round Racers</a>
-			</h3>
-			<a href="/go/merge-round-racers.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Traffic Mania" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/traffic-mania.html">
-			<img src="images/traffic-mania.webp" class="small-thumb" alt="Traffic Mania">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/traffic-mania.html">Traffic Mania</a>
-			</h3>
-			<a href="/go/traffic-mania.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Jetpack Joyride" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/jetpack-joyride.html">
-			<img src="images/jetpack-joyride.webp" class="small-thumb" alt="Jetpack Joyride">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/jetpack-joyride.html">Jetpack Joyride</a>
-			</h3>
-			<a href="/go/jetpack-joyride.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Masked Forces" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/masked-forces.html">
-			<img src="images/masked-forces.webp" class="small-thumb" alt="Masked Forces">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/masked-forces.html">Masked Forces</a>
-			</h3>
-			<a href="/go/masked-forces.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Highway Traffic" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/highway-traffic.html">
-			<img src="images/highway-traffic.webp" class="small-thumb" alt="Highway Traffic">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/highway-traffic.html">Highway Traffic</a>
-			</h3>
-			<a href="/go/highway-traffic.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Getting Over It" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/getting-over-it.html">
-			<img src="images/getting-over-it.webp" class="small-thumb" alt="Getting Over It">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/getting-over-it.html">Getting Over It</a>
-			</h3>
-			<a href="/go/getting-over-it.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Age Of War" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/age-of-war.html">
-			<img src="images/age-of-war.webp" class="small-thumb" alt="Age Of War">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/age-of-war.html">Age Of War</a>
-			</h3>
-			<a href="/go/age-of-war.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="8 Ball Pool" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/8-ball-pool.html">
-			<img src="images/8-ball-pool.webp" class="small-thumb" alt="8 Ball Pool">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/8-ball-pool.html">8 Ball Pool</a>
-			</h3>
-			<a href="/go/8-ball-pool.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Orbital Survival" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/orbital-survival.html">
-			<img src="images/orbital-survival.webp" class="small-thumb" alt="Orbital Survival">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/orbital-survival.html">Orbital Survival</a>
-			</h3>
-			<a href="/go/orbital-survival.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Happy Room" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/happy-room.html">
-			<img src="images/happy-room.webp" class="small-thumb" alt="Happy Room">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/happy-room.html">Happy Room</a>
-			</h3>
-			<a href="/go/happy-room.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Red Ball 4" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/red-ball-4.html">
-			<img src="images/red-ball-4.webp" class="small-thumb" alt="Red Ball 4">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/red-ball-4.html">Red Ball 4</a>
-			</h3>
-			<a href="/go/red-ball-4.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Leader Strike" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/leader-strike.html">
-			<img src="images/leader-strike.webp" class="small-thumb" alt="Leader Strike">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/leader-strike.html">Leader Strike</a>
-			</h3>
-			<a href="/go/leader-strike.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Google Feud" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/google-feud.html">
-			<img src="images/google-feud.webp" class="small-thumb" alt="Google Feud">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/google-feud.html">Google Feud</a>
-			</h3>
-			<a href="/go/google-feud.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Bullet Force" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/bullet-force.html">
-			<img src="images/bullet-force.webp" class="small-thumb" alt="Bullet Force">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/bullet-force.html">Bullet Force</a>
-			</h3>
-			<a href="/go/bullet-force.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Wheely 8" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/wheely-8.html">
-			<img src="images/wheely-8.webp" class="small-thumb" alt="Wheely 8">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/wheely-8.html">Wheely 8</a>
-			</h3>
-			<a href="/go/wheely-8.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Minesweeper" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/minesweeper.html">
-			<img src="images/minesweeper.webp" class="small-thumb" alt="Minesweeper">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/minesweeper.html">Minesweeper</a>
-			</h3>
-			<a href="/go/minesweeper.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Adventure Drivers" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/adventure-drivers.html">
-			<img src="images/adventure-drivers.webp" class="small-thumb" alt="Adventure Drivers">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/adventure-drivers.html">Adventure Drivers</a>
-			</h3>
-			<a href="/go/adventure-drivers.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Doodle Jump" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/doodle-jump.html">
-			<img src="images/doodle-jump.webp" class="small-thumb" alt="Doodle Jump">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/doodle-jump.html">Doodle Jump</a>
-			</h3>
-			<a href="/go/doodle-jump.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Riddle School" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/riddle-school.html">
-			<img src="images/riddle-school.webp" class="small-thumb" alt="Riddle School">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/riddle-school.html">Riddle School</a>
-			</h3>
-			<a href="/go/riddle-school.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Solitaire" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/solitaire.html">
-			<img src="images/solitaire.webp" class="small-thumb" alt="Solitaire">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/solitaire.html">Solitaire</a>
-			</h3>
-			<a href="/go/solitaire.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Vex 4" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/vex-4.html">
-			<img src="images/vex-4.webp" class="small-thumb" alt="Vex 4">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/vex-4.html">Vex 4</a>
-			</h3>
-			<a href="/go/vex-4.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Cut The Rope Time Travel" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/cut-the-rope-time-travel.html">
-			<img src="images/cut-the-rope-time-travel.webp" class="small-thumb" alt="Cut The Rope Time Travel">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/cut-the-rope-time-travel.html">Cut The Rope Time Travel</a>
-			</h3>
-			<a href="/go/cut-the-rope-time-travel.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Bad Ice Cream 2" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/bad-ice-cream-2.html">
-			<img src="images/bad-ice-cream-2.webp" class="small-thumb" alt="Bad Ice Cream 2">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/bad-ice-cream-2.html">Bad Ice Cream 2</a>
-			</h3>
-			<a href="/go/bad-ice-cream-2.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Bad Ice Cream 3" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/bad-ice-cream-3.html">
-			<img src="images/bad-ice-cream-3.webp" class="small-thumb" alt="Bad Ice Cream 3">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/bad-ice-cream-3.html">Bad Ice Cream 3</a>
-			</h3>
-			<a href="/go/bad-ice-cream-3.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Pixel Gun Survival" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/pixel-gun-survival.html">
-			<img src="images/pixel-gun-survival.webp" class="small-thumb" alt="Pixel Gun Survival">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/pixel-gun-survival.html">Pixel Gun Survival</a>
-			</h3>
-			<a href="/go/pixel-gun-survival.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Pac Man" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/pac-man.html">
-			<img src="images/pac-man.webp" class="small-thumb" alt="Pac Man">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/pac-man.html">Pac Man</a>
-			</h3>
-			<a href="/go/pac-man.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Doge Miner" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/doge-miner.html">
-			<img src="images/doge-miner.webp" class="small-thumb" alt="Doge Miner">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/doge-miner.html">Doge Miner</a>
-			</h3>
-			<a href="/go/doge-miner.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Idle Breakout" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/idle-breakout.html">
-			<img src="images/idle-breakout.webp" class="small-thumb" alt="Idle Breakout">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/idle-breakout.html">Idle Breakout</a>
-			</h3>
-			<a href="/go/idle-breakout.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Fortnite" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/fortnite.html">
-			<img src="images/fortnite.webp" class="small-thumb" alt="Fortnite">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/fortnite.html">Fortnite</a>
-			</h3>
-			<a href="/go/fortnite.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Tiny Fishing" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/tiny-fishing.html">
-			<img src="images/tiny-fishing.webp" class="small-thumb" alt="Tiny Fishing">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/tiny-fishing.html">Tiny Fishing</a>
-			</h3>
-			<a href="/go/tiny-fishing.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Moto X3m Winter" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/moto-x3m-winter.html">
-			<img src="images/moto-x3m-winter.webp" class="small-thumb" alt="Moto X3m Winter">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/moto-x3m-winter.html">Moto X3m Winter</a>
-			</h3>
-			<a href="/go/moto-x3m-winter.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Drift Boss" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/drift-boss.html">
-			<img src="images/drift-boss.webp" class="small-thumb" alt="Drift Boss">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/drift-boss.html">Drift Boss</a>
-			</h3>
-			<a href="/go/drift-boss.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Raft Wars" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/raft-wars.html">
-			<img src="images/raft-wars.webp" class="small-thumb" alt="Raft Wars">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/raft-wars.html">Raft Wars</a>
-			</h3>
-			<a href="/go/raft-wars.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Among Us" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/among-us.html">
-			<img src="images/among-us.webp" class="small-thumb" alt="Among Us">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/among-us.html">Among Us</a>
-			</h3>
-			<a href="/go/among-us.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="1v1.lol" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/1v1.lol.html">
-			<img src="images/1v1lol.webp" class="small-thumb" alt="1v1.lol">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/1v1.lol.html">1v1.lol</a>
-			</h3>
-			<a href="/go/1v1.lol.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Retro Bowl" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/retro-bowl.html">
-			<img src="images/retro-bowl.webp" class="small-thumb" alt="Retro Bowl">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/retro-bowl.html">Retro Bowl</a>
-			</h3>
-			<a href="/go/retro-bowl.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Basketball Legends" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/basketball-legends.html">
-			<img src="images/basketball-legends.webp" class="small-thumb" alt="Basketball Legends">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/basketball-legends.html">Basketball Legends</a>
-			</h3>
-			<a href="/go/basketball-legends.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="2048" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/2048.html">
-			<img src="images/2048.webp" class="small-thumb" alt="2048">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/2048.html">2048</a>
-			</h3>
-			<a href="/go/2048.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Fireboy And Water Girl" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/fireboy-and-water-girl.html">
-			<img src="images/fireboy-and-water-girl.webp" class="small-thumb" alt="Fireboy And Water Girl">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/fireboy-and-water-girl.html">Fireboy And Water Girl</a>
-			</h3>
-			<a href="/go/fireboy-and-water-girl.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Car Rush" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/car-rush.html">
-			<img src="images/car-rush.webp" class="small-thumb" alt="Car Rush">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/car-rush.html">Car Rush</a>
-			</h3>
-			<a href="/go/car-rush.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Madalin Stunt Cars 2" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/madalin-stunt-cars-2.html">
-			<img src="images/madalin-stunt-cars-2.webp" class="small-thumb" alt="Madalin Stunt Cars 2">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/madalin-stunt-cars-2.html">Madalin Stunt Cars 2</a>
-			</h3>
-			<a href="/go/madalin-stunt-cars-2.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Tunnel Rush" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/tunnel-rush.html">
-			<img src="images/tunnel-rush.webp" class="small-thumb" alt="Tunnel Rush">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/tunnel-rush.html">Tunnel Rush</a>
-			</h3>
-			<a href="/go/tunnel-rush.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Crossy Road" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/crossy-road.html">
-			<img src="images/crossy-road.webp" class="small-thumb" alt="Crossy Road">
+			<a href="/hot-games">
+				<li class="cat-item"><span class="icon-category"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/assets/images/icon/fire.svg" alt="Hot Games" width="40" height="40"></span>
+					<div class="cat-info"><span class="cat-name">Hot Games</span>
+					</div>
+				</li>
 			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/crossy-road.html">Crossy Road</a>
-			</h3>
-			<a href="/go/crossy-road.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
 
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Smash Karts" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/smash-karts.html">
-			<img src="images/smash-karts.webp" class="small-thumb" alt="Smash Karts">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/smash-karts.html">Smash Karts</a>
-			</h3>
-			<a href="/go/smash-karts.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Drift Hunters" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/drift-hunters.html">
-			<img src="images/drift-hunters.webp" class="small-thumb" alt="Drift Hunters">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/drift-hunters.html">Drift Hunters</a>
-			</h3>
-			<a href="/go/drift-hunters.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Moto X3m Spooky Land" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/moto-x3m-spooky-land.html">
-			<img src="images/moto-x3m-spooky-land.webp" class="small-thumb" alt="Moto X3m Spooky Land">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/moto-x3m-spooky-land.html">Moto X3m Spooky Land</a>
-			</h3>
-			<a href="/go/moto-x3m-spooky-land.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Moto X3m Pool Party" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/moto-x3m-pool-party.html">
-			<img src="images/moto-x3m-pool-party.webp" class="small-thumb" alt="Moto X3m Pool Party">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/moto-x3m-pool-party.html">Moto X3m Pool Party</a>
-			</h3>
-			<a href="/go/moto-x3m-pool-party.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="House Of Hazards" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/house-of-hazards.html">
-			<img src="images/house-of-hazards.webp" class="small-thumb" alt="House Of Hazards">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/house-of-hazards.html">House Of Hazards</a>
-			</h3>
-			<a href="/go/house-of-hazards.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Stickman Hook" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/stickman-hook.html">
-			<img src="images/stickman-hook.webp" class="small-thumb" alt="Stickman Hook">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/stickman-hook.html">Stickman Hook</a>
-			</h3>
-			<a href="/go/stickman-hook.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Candy Jump" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/candy-jump.html">
-			<img src="images/candy-jump.webp" class="small-thumb" alt="Candy Jump">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/candy-jump.html">Candy Jump</a>
-			</h3>
-			<a href="/go/candy-jump.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Bob The Robber 4" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/bob-the-robber-4.html">
-			<img src="images/bob-the-robber-4.webp" class="small-thumb" alt="Bob The Robber 4">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/bob-the-robber-4.html">Bob The Robber 4</a>
-			</h3>
-			<a href="/go/bob-the-robber-4.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Block The Pig" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/block-the-pig.html">
-			<img src="images/block-the-pig.webp" class="small-thumb" alt="Block The Pig">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/block-the-pig.html">Block The Pig</a>
-			</h3>
-			<a href="/go/block-the-pig.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Bitlife" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/bitlife.html">
-			<img src="images/bitlife.webp" class="small-thumb" alt="Bitlife">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/bitlife.html">Bitlife</a>
-			</h3>
-			<a href="/go/bitlife.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Archery World Tour" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/archery-world-tour.html">
-			<img src="images/archery-world-tour.webp" class="small-thumb" alt="Archery World Tour">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/archery-world-tour.html">Archery World Tour</a>
-			</h3>
-			<a href="/go/archery-world-tour.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Bunny Hop" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/bunny-hop.html">
-			<img src="images/bunny-hop.webp" class="small-thumb" alt="Bunny Hop">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/bunny-hop.html">Bunny Hop</a>
-			</h3>
-			<a href="/go/bunny-hop.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Ovo" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/ovo.html">
-			<img src="images/ovo.webp" class="small-thumb" alt="Ovo">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/ovo.html">Ovo</a>
-			</h3>
-			<a href="/go/ovo.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Hover Racer" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/hover-racer.html">
-			<img src="images/hover-racer.webp" class="small-thumb" alt="Hover Racer">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/hover-racer.html">Hover Racer</a>
-			</h3>
-			<a href="/go/hover-racer.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Parking Fury" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/parking-fury.html">
-			<img src="images/parking-fury.webp" class="small-thumb" alt="Parking Fury">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/parking-fury.html">Parking Fury</a>
-			</h3>
-			<a href="/go/parking-fury.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Penalty Kick Online" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/penalty-kick-online.html">
-			<img src="images/penalty-kick-online.webp" class="small-thumb" alt="Penalty Kick Online">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/penalty-kick-online.html">Penalty Kick Online</a>
-			</h3>
-			<a href="/go/penalty-kick-online.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Pre Civilization Bronze Age" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/pre-civilization-bronze-age.html">
-			<img src="images/pre-civilization-bronze-age.webp" class="small-thumb" alt="Pre Civilization Bronze Age">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/pre-civilization-bronze-age.html">Pre Civilization Bronze Age</a>
-			</h3>
-			<a href="/go/pre-civilization-bronze-age.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Top Speed Racing 3d" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/top-speed-racing-3d.html">
-			<img src="images/top-speed-racing-3d.webp" class="small-thumb" alt="Top Speed Racing 3d">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/top-speed-racing-3d.html">Top Speed Racing 3d</a>
-			</h3>
-			<a href="/go/top-speed-racing-3d.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Stickman Ragdoll Crash Fun" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/stickman-ragdoll-crash-fun.html">
-			<img src="images/stickman-ragdoll-crash-fun.webp" class="small-thumb" alt="Stickman Ragdoll Crash Fun">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/stickman-ragdoll-crash-fun.html">Stickman Ragdoll Crash Fun</a>
-			</h3>
-			<a href="/go/stickman-ragdoll-crash-fun.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Evo City Driving" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/evo-city-driving.html">
-			<img src="images/evo-city-driving.webp" class="small-thumb" alt="Evo City Driving">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/evo-city-driving.html">Evo City Driving</a>
-			</h3>
-			<a href="/go/evo-city-driving.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Parking Fury 2" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/parking-fury-2.html">
-			<img src="images/parking-fury-2.webp" class="small-thumb" alt="Parking Fury 2">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/parking-fury-2.html">Parking Fury 2</a>
-			</h3>
-			<a href="/go/parking-fury-2.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Parkour Block 3d" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/parkour-block-3d.html">
-			<img src="images/parkour-block-3d.webp" class="small-thumb" alt="Parkour Block 3d">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/parkour-block-3d.html">Parkour Block 3d</a>
-			</h3>
-			<a href="/go/parkour-block-3d.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Color Tunnel 2" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/color-tunnel-2.html">
-			<img src="images/color-tunnel-2.webp" class="small-thumb" alt="Color Tunnel 2">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/color-tunnel-2.html">Color Tunnel 2</a>
-			</h3>
-			<a href="/go/color-tunnel-2.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Basketball Stars" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/basketball-stars.html">
-			<img src="images/basketball-stars.webp" class="small-thumb" alt="Basketball Stars">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/basketball-stars.html">Basketball Stars</a>
-			</h3>
-			<a href="/go/basketball-stars.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Rooftop Snipers" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/rooftop-snipers.html">
-			<img src="images/rooftop-snipers.webp" class="small-thumb" alt="Rooftop Snipers">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/rooftop-snipers.html">Rooftop Snipers</a>
-			</h3>
-			<a href="/go/rooftop-snipers.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Bloxorz" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/bloxorz.html">
-			<img src="images/bloxorz.webp" class="small-thumb" alt="Bloxorz">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/bloxorz.html">Bloxorz</a>
-			</h3>
-			<a href="/go/bloxorz.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
 
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Madalin Stunt Cars 3" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/madalin-stunt-cars-3.html">
-			<img src="images/madalin-stunt-cars-3.webp" class="small-thumb" alt="Madalin Stunt Cars 3">
+					<a href="/car">
+				<li class="cat-item"><span class="icon-category"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/assets/images/icon/car.svg" alt="" width="40" height="40"></span>
+					<div class="cat-info"><span class="cat-name">Car</span>
+					</div>
+				</li>
 			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/madalin-stunt-cars-3.html">Madalin Stunt Cars 3</a>
-			</h3>
-			<a href="/go/madalin-stunt-cars-3.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Awesome Tanks" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/awesome-tanks.html">
-			<img src="images/awesome-tanks.webp" class="small-thumb" alt="Awesome Tanks">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/awesome-tanks.html">Awesome Tanks</a>
-			</h3>
-			<a href="/go/awesome-tanks.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Awesome Tanks 2" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/awesome-tanks-2.html">
-			<img src="images/awesome-tanks-2.webp" class="small-thumb" alt="Awesome Tanks 2">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/awesome-tanks-2.html">Awesome Tanks 2</a>
-			</h3>
-			<a href="/go/awesome-tanks-2.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="B Cubed" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/b-cubed.html">
-			<img src="images/b-cubed.webp" class="small-thumb" alt="B Cubed">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/b-cubed.html">B Cubed</a>
-			</h3>
-			<a href="/go/b-cubed.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Slope 3" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/slope-3.html">
-			<img src="images/slope-3.webp" class="small-thumb" alt="Slope 3">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/slope-3.html">Slope 3</a>
-			</h3>
-			<a href="/go/slope-3.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Slope 2" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/slope-2.html">
-			<img src="images/slope-2.webp" class="small-thumb" alt="Slope 2">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/slope-2.html">Slope 2</a>
-			</h3>
-			<a href="/go/slope-2.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Cookie Clicker" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/cookie-clicker.html">
-			<img src="images/cookie-clicker.webp" class="small-thumb" alt="Cookie Clicker">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/cookie-clicker.html">Cookie Clicker</a>
-			</h3>
-			<a href="/go/cookie-clicker.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Duck Life 2" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/duck-life-2.html">
-			<img src="images/duck-life-2.webp" class="small-thumb" alt="Duck Life 2">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/duck-life-2.html">Duck Life 2</a>
-			</h3>
-			<a href="/go/duck-life-2.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Duck Life 3 Evolution" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/duck-life-3-evolution.html">
-			<img src="images/duck-life-3-evolution.webp" class="small-thumb" alt="Duck Life 3 Evolution">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/duck-life-3-evolution.html">Duck Life 3 Evolution</a>
-			</h3>
-			<a href="/go/duck-life-3-evolution.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Coffee Shop" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/coffee-shop.html">
-			<img src="images/coffee-shop.webp" class="small-thumb" alt="Coffee Shop">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/coffee-shop.html">Coffee Shop</a>
-			</h3>
-			<a href="/go/coffee-shop.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Snake" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/snake.html">
-			<img src="images/snake.webp" class="small-thumb" alt="Snake">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/snake.html">Snake</a>
-			</h3>
-			<a href="/go/snake.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Basket Ball" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/basket-ball.html">
-			<img src="images/basket-ball.webp" class="small-thumb" alt="Basket Ball">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/basket-ball.html">Basket Ball</a>
-			</h3>
-			<a href="/go/basket-ball.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Factory Balls Forever" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/factory-balls-forever.html">
-			<img src="images/factory-balls-forever.webp" class="small-thumb" alt="Factory Balls Forever">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/factory-balls-forever.html">Factory Balls Forever</a>
-			</h3>
-			<a href="/go/factory-balls-forever.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Gun Mayhem" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/gun-mayhem.html">
-			<img src="images/gun-mayhem.webp" class="small-thumb" alt="Gun Mayhem">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/gun-mayhem.html">Gun Mayhem</a>
-			</h3>
-			<a href="/go/gun-mayhem.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Vex 5" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/vex-5.html">
-			<img src="images/vex-5.webp" class="small-thumb" alt="Vex 5">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/vex-5.html">Vex 5</a>
-			</h3>
-			<a href="/go/vex-5.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Highway Rider Extreme" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/highway-rider-extreme.html">
-			<img src="images/highway-rider-extreme.webp" class="small-thumb" alt="Highway Rider Extreme">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/highway-rider-extreme.html">Highway Rider Extreme</a>
-			</h3>
-			<a href="/go/highway-rider-extreme.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Flappy Bird" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/flappy-bird.html">
-			<img src="images/flappy-bird.webp" class="small-thumb" alt="Flappy Bird">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/flappy-bird.html">Flappy Bird</a>
-			</h3>
-			<a href="/go/flappy-bird.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Cubito Mayhem" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/cubito-mayhem.html">
-			<img src="images/cubito-mayhem.webp" class="small-thumb" alt="Cubito Mayhem">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/cubito-mayhem.html">Cubito Mayhem</a>
-			</h3>
-			<a href="/go/cubito-mayhem.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Earn To Die" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/earn-to-die.html">
-			<img src="images/earn-to-die.webp" class="small-thumb" alt="Earn To Die">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/earn-to-die.html">Earn To Die</a>
-			</h3>
-			<a href="/go/earn-to-die.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Worlds Hardest Game 2" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/worlds-hardest-game-2.html">
-			<img src="images/worlds-hardest-game-2.webp" class="small-thumb" alt="Worlds Hardest Game 2">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/worlds-hardest-game-2.html">Worlds Hardest Game 2</a>
-			</h3>
-			<a href="/go/worlds-hardest-game-2.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Worlds Hardest Game 3" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/worlds-hardest-game-3.html">
-			<img src="images/worlds-hardest-game-3.webp" class="small-thumb" alt="Worlds Hardest Game 3">
+					<a href="/shooting">
+				<li class="cat-item"><span class="icon-category"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/assets/images/icon/shooting.svg" alt="" width="40" height="40"></span>
+					<div class="cat-info"><span class="cat-name">Shooting</span>
+					</div>
+				</li>
 			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/worlds-hardest-game-3.html">Worlds Hardest Game 3</a>
-			</h3>
-			<a href="/go/worlds-hardest-game-3.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Run 3" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/run-3.html">
-			<img src="images/run-3.webp" class="small-thumb" alt="Run 3">
-			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/run-3.html">Run 3</a>
-			</h3>
-			<a href="/go/run-3.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Minecraft Classic" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/minecraft-classic.html">
-			<img src="images/minecraft-classic.webp" class="small-thumb" alt="Minecraft Classic">
+					<a href="/action">
+				<li class="cat-item"><span class="icon-category"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/assets/images/icon/action.svg" alt="" width="40" height="40"></span>
+					<div class="cat-info"><span class="cat-name">Action</span>
+					</div>
+				</li>
 			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/minecraft-classic.html">Minecraft Classic</a>
-			</h3>
-			<a href="/go/minecraft-classic.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Slope City" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/slope-city.html">
-			<img src="images/slope-city.webp" class="small-thumb" alt="Slope City">
+					<a href="/multiplayer">
+				<li class="cat-item"><span class="icon-category"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/assets/images/icon/multiplayer.svg" alt="" width="40" height="40"></span>
+					<div class="cat-info"><span class="cat-name">Multiplayer</span>
+					</div>
+				</li>
 			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/slope-city.html">Slope City</a>
-			</h3>
-			<a href="/go/slope-city.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-					<div class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile show animals">
-			<div title="Slope Tunnel" class="g-card ">
-			<div class="pic">
-			<figure class="ratio ratio-1">
-			<a href="/go/slope-tunnel.html">
-			<img src="images/slope-tunnel.webp" class="small-thumb" alt="Slope Tunnel">
+					<a href="/sports">
+				<li class="cat-item"><span class="icon-category"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/assets/images/icon/sports.svg" alt="" width="40" height="40"></span>
+					<div class="cat-info"><span class="cat-name">Sports</span>
+					</div>
+				</li>
 			</a>
-			</figure>
-			</div>
-			<div class="g-info">
-			<h3 class="grid-title ellipsis">
-			<a href="/go/slope-tunnel.html">Slope Tunnel</a>
-			</h3>
-			<a href="/go/slope-tunnel.html" class="bt-play"><img src="/assets/images/icon/play.svg" alt=""></a>
-			</div>
-			</div>
-			</div> 
-
-
-		</div> <!-- end listing1 -->
-
-
-
-
-
-	</div><!-- end container -->
-</section> <!-- end new-g -->
-
+		
 
 
-<section class="banner">
-	<div class="container" align="center">
-<!-- ads -->	
+		</ul>	
 
-	</div>
-</section>
 
 
-<!-- 
-<section class="footer">
-	<div class="container">
-	<div class="columns pt-5 pb-5">
-	<div class="column is-4">
-	</div>
-	<div class="column is-4">
-	</div>
-	<div class="column is-4">
-	</div>
-	</div>
-	</div>
-</section>
- -->
+	</div> <!-- end category-list-global -->
 
-<section class="section-copyright">
-<div class="container">
-<p class="copyright">topVAZ Games<span class="dsb-panel">
 
-<!-- <a href="£">Send Email</a> -->
-</p>
-</div>
-</section>
-</div>
-</div>
 
-<script type="text/javascript" src="/assets/js/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="/assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
 
-<script type="text/javascript" src="/assets/js/main.js"></script>
-<script type="text/javascript" src="/assets/js/custom.js"></script>
-<script type="text/javascript" src="/assets/js/search.js"></script>
 
 
 
-</body>
-</html>
+		<!-- New games section -->
 	
+
+	<div style="padding-bottom: 20px"  align="center">
+			</div>
+	<h3 class="section-title">Popular games</h3>		
+	<div class="row grid-container" id="new-games-section">
+
+
+
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/minecraft-1.8">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/minecraft-1.8.webp" class="small-thumb img-rounded" alt="Minecraft 1.8"></div>
+					<div class="list-info">
+						<div class="list-title">Minecraft 1.8</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/slope.html">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/slope.webp" class="small-thumb img-rounded" alt="Slope"></div>
+					<div class="list-info">
+						<div class="list-title">Slope</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/run-3">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/run-3.webp" class="small-thumb img-rounded" alt="Run 3"></div>
+					<div class="list-info">
+						<div class="list-title">Run 3</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/moto-x3m">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/moto-x3m.webp" class="small-thumb img-rounded" alt="Moto X3m"></div>
+					<div class="list-info">
+						<div class="list-title">Moto X3m</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/subway-surfers">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/subway-surfers.webp" class="small-thumb img-rounded" alt="Subway Surfers"></div>
+					<div class="list-info">
+						<div class="list-title">Subway Surfers</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/temple-run-2">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/temple-run-2.webp" class="small-thumb img-rounded" alt="Temple Run 2"></div>
+					<div class="list-info">
+						<div class="list-title">Temple Run 2</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/burrito-bison">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/burrito-bison.webp" class="small-thumb img-rounded" alt="Burrito Bison"></div>
+					<div class="list-info">
+						<div class="list-title">Burrito Bison</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/friday-night-funkin">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/friday-night-funkin.webp" class="small-thumb img-rounded" alt="Friday Night Funkin"></div>
+					<div class="list-info">
+						<div class="list-title">Friday Night Funkin</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/cut-the-rope">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/cut-the-rope.webp" class="small-thumb img-rounded" alt="Cut The Rope"></div>
+					<div class="list-info">
+						<div class="list-title">Cut The Rope</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				
+
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/merge-round-racers">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/merge-round-racers.webp" class="small-thumb img-rounded" alt="Merge Round Racers"></div>
+					<div class="list-info">
+						<div class="list-title">Merge Round Racers</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/traffic-mania">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/traffic-mania.webp" class="small-thumb img-rounded" alt="Traffic Mania"></div>
+					<div class="list-info">
+						<div class="list-title">Traffic Mania</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/jetpack-joyride">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/jetpack-joyride.webp" class="small-thumb img-rounded" alt="Jetpack Joyride"></div>
+					<div class="list-info">
+						<div class="list-title">Jetpack Joyride</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/masked-forces">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/masked-forces.webp" class="small-thumb img-rounded" alt="Masked Forces"></div>
+					<div class="list-info">
+						<div class="list-title">Masked Forces</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/highway-traffic">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/highway-traffic.webp" class="small-thumb img-rounded" alt="Highway Traffic"></div>
+					<div class="list-info">
+						<div class="list-title">Highway Traffic</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/getting-over-it">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/getting-over-it.webp" class="small-thumb img-rounded" alt="Getting Over It"></div>
+					<div class="list-info">
+						<div class="list-title">Getting Over It</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/age-of-war">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/age-of-war.webp" class="small-thumb img-rounded" alt="Age Of War"></div>
+					<div class="list-info">
+						<div class="list-title">Age Of War</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/8-ball-pool">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/8-ball-pool.webp" class="small-thumb img-rounded" alt="8 Ball Pool"></div>
+					<div class="list-info">
+						<div class="list-title">8 Ball Pool</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+
+				
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/happy-room">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/happy-room.webp" class="small-thumb img-rounded" alt="Happy Room"></div>
+					<div class="list-info">
+						<div class="list-title">Happy Room</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/red-ball-4">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/red-ball-4.webp" class="small-thumb img-rounded" alt="Red Ball 4"></div>
+					<div class="list-info">
+						<div class="list-title">Red Ball 4</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+
+				
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/google-feud">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/google-feud.webp" class="small-thumb img-rounded" alt="Google Feud"></div>
+					<div class="list-info">
+						<div class="list-title">Google Feud</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/bullet-force">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/bullet-force.webp" class="small-thumb img-rounded" alt="Bullet Force"></div>
+					<div class="list-info">
+						<div class="list-title">Bullet Force</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+
+				
+				
+
+				
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/riddle-school">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/riddle-school.webp" class="small-thumb img-rounded" alt="Riddle School"></div>
+					<div class="list-info">
+						<div class="list-title">Riddle School</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+
+					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/vex-4">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/vex-4.webp" class="small-thumb img-rounded" alt="Vex 4"></div>
+					<div class="list-info">
+						<div class="list-title">Vex 4</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+
+				
+
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/pixel-gun-survival">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/pixel-gun-survival.webp" class="small-thumb img-rounded" alt="Pixel Gun Survival"></div>
+					<div class="list-info">
+						<div class="list-title">Pixel Gun Survival</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+
+					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/doge-miner">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/doge-miner.webp" class="small-thumb img-rounded" alt="Doge Miner"></div>
+					<div class="list-info">
+						<div class="list-title">Doge Miner</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/idle-breakout">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/idle-breakout.webp" class="small-thumb img-rounded" alt="Idle Breakout"></div>
+					<div class="list-info">
+						<div class="list-title">Idle Breakout</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/fortnite">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/fortnite.webp" class="small-thumb img-rounded" alt="Fortnite"></div>
+					<div class="list-info">
+						<div class="list-title">Fortnite</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/tiny-fishing">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/tiny-fishing.webp" class="small-thumb img-rounded" alt="Tiny Fishing"></div>
+					<div class="list-info">
+						<div class="list-title">Tiny Fishing</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+
+				
+		<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/drift-boss">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/drift-boss.webp" class="small-thumb img-rounded" alt="Drift Boss"></div>
+					<div class="list-info">
+						<div class="list-title">Drift Boss</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/raft-wars">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/raft-wars.webp" class="small-thumb img-rounded" alt="Raft Wars"></div>
+					<div class="list-info">
+						<div class="list-title">Raft Wars</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/among-us">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/among-us.webp" class="small-thumb img-rounded" alt="Among Us"></div>
+					<div class="list-info">
+						<div class="list-title">Among Us</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/1v1.lol">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/1v1lol.webp" class="small-thumb img-rounded" alt="1v1.lol"></div>
+					<div class="list-info">
+						<div class="list-title">1v1.lol</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/retro-bowl">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/retro-bowl.webp" class="small-thumb img-rounded" alt="Retro Bowl"></div>
+					<div class="list-info">
+						<div class="list-title">Retro Bowl</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/basketball-legends">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/basketball-legends.webp" class="small-thumb img-rounded" alt="Basketball Legends"></div>
+					<div class="list-info">
+						<div class="list-title">Basketball Legends</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+
+
+				
+		<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/madalin-stunt-cars-2">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/madalin-stunt-cars-2.webp" class="small-thumb img-rounded" alt="Madalin Stunt Cars 2"></div>
+					<div class="list-info">
+						<div class="list-title">Madalin Stunt Cars 2</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/tunnel-rush">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/tunnel-rush.webp" class="small-thumb img-rounded" alt="Tunnel Rush"></div>
+					<div class="list-info">
+						<div class="list-title">Tunnel Rush</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/crossy-road">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/crossy-road.webp" class="small-thumb img-rounded" alt="Crossy Road"></div>
+					<div class="list-info">
+						<div class="list-title">Crossy Road</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/smash-karts">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/smash-karts.webp" class="small-thumb img-rounded" alt="Smash Karts"></div>
+					<div class="list-info">
+						<div class="list-title">Smash Karts</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/drift-hunters">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/drift-hunters.webp" class="small-thumb img-rounded" alt="Drift Hunters"></div>
+					<div class="list-info">
+						<div class="list-title">Drift Hunters</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/moto-x3m-spooky-land">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/moto-x3m-spooky-land.webp" class="small-thumb img-rounded" alt="Moto X3m Spooky Land"></div>
+					<div class="list-info">
+						<div class="list-title">Moto X3m Spooky Land</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/house-of-hazards">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/house-of-hazards.webp" class="small-thumb img-rounded" alt="House Of Hazards"></div>
+					<div class="list-info">
+						<div class="list-title">House Of Hazards</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/stickman-hook">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/stickman-hook.webp" class="small-thumb img-rounded" alt="Stickman Hook"></div>
+					<div class="list-info">
+						<div class="list-title">Stickman Hook</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>	
+
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/bob-the-robber-4">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/bob-the-robber-4.webp" class="small-thumb img-rounded" alt="Bob The Robber 4"></div>
+					<div class="list-info">
+						<div class="list-title">Bob The Robber 4</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/bitlife">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/bitlife.webp" class="small-thumb img-rounded" alt="Bitlife"></div>
+					<div class="list-info">
+						<div class="list-title">Bitlife</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				
+				
+
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/ovo">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/ovo.webp" class="small-thumb img-rounded" alt="Ovo"></div>
+					<div class="list-info">
+						<div class="list-title">Ovo</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+
+				
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/penalty-kick-online">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/penalty-kick-online.webp" class="small-thumb img-rounded" alt="Penalty Kick Online"></div>
+					<div class="list-info">
+						<div class="list-title">Penalty Kick Online</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+
+
+				
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/top-speed-racing-3d">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/top-speed-racing-3d.webp" class="small-thumb img-rounded" alt="Top Speed Racing 3d"></div>
+					<div class="list-info">
+						<div class="list-title">Top Speed Racing 3d</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/stickman-ragdoll-crash-fun">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/stickman-ragdoll-crash-fun.webp" class="small-thumb img-rounded" alt="Stickman Ragdoll Crash Fun"></div>
+					<div class="list-info">
+						<div class="list-title">Stickman Ragdoll Crash Fun</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/evo-city-driving">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/evo-city-driving.webp" class="small-thumb img-rounded" alt="Evo City Driving"></div>
+					<div class="list-info">
+						<div class="list-title">Evo City Driving</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/parkour-block-3d">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/parkour-block-3d.webp" class="small-thumb img-rounded" alt="Parkour Block 3d"></div>
+					<div class="list-info">
+						<div class="list-title">Parkour Block 3d</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				
+
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/basketball-stars">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/basketball-stars.webp" class="small-thumb img-rounded" alt="Basketball Stars"></div>
+					<div class="list-info">
+						<div class="list-title">Basketball Stars</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/rooftop-snipers">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/rooftop-snipers.webp" class="small-thumb img-rounded" alt="Rooftop Snipers"></div>
+					<div class="list-info">
+						<div class="list-title">Rooftop Snipers</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/bloxorz">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/bloxorz.webp" class="small-thumb img-rounded" alt="Bloxorz"></div>
+					<div class="list-info">
+						<div class="list-title">Bloxorz</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/madalin-stunt-cars-3">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/madalin-stunt-cars-3.webp" class="small-thumb img-rounded" alt="Madalin Stunt Cars 3"></div>
+					<div class="list-info">
+						<div class="list-title">Madalin Stunt Cars 3</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+
+				
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/awesome-tanks-2">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/awesome-tanks-2.webp" class="small-thumb img-rounded" alt="Awesome Tanks 2"></div>
+					<div class="list-info">
+						<div class="list-title">Awesome Tanks 2</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+
+				
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/slope-3">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/slope-3.webp" class="small-thumb img-rounded" alt="Slope 3"></div>
+					<div class="list-info">
+						<div class="list-title">Slope 3</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/slope-2">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/slope-2.webp" class="small-thumb img-rounded" alt="Slope 2"></div>
+					<div class="list-info">
+						<div class="list-title">Slope 2</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/cookie-clicker">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/cookie-clicker.webp" class="small-thumb img-rounded" alt="Cookie Clicker"></div>
+					<div class="list-info">
+						<div class="list-title">Cookie Clicker</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+
+
+
+				
+		<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/basket-ball">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/basket-ball.webp" class="small-thumb img-rounded" alt="Basket Ball"></div>
+					<div class="list-info">
+						<div class="list-title">Basket Ball</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+
+					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/gun-mayhem">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/gun-mayhem.webp" class="small-thumb img-rounded" alt="Gun Mayhem"></div>
+					<div class="list-info">
+						<div class="list-title">Gun Mayhem</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/vex-5">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/vex-5.webp" class="small-thumb img-rounded" alt="Vex 5"></div>
+					<div class="list-info">
+						<div class="list-title">Vex 5</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/highway-rider-extreme">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/highway-rider-extreme.webp" class="small-thumb img-rounded" alt="Highway Rider Extreme"></div>
+					<div class="list-info">
+						<div class="list-title">Highway Rider Extreme</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/flappy-bird">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/flappy-bird.webp" class="small-thumb img-rounded" alt="Flappy Bird"></div>
+					<div class="list-info">
+						<div class="list-title">Flappy Bird</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/earn-to-die">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/earn-to-die.webp" class="small-thumb img-rounded" alt="Earn To Die"></div>
+					<div class="list-info">
+						<div class="list-title">Earn To Die</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/worlds-hardest-game-2">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/worlds-hardest-game-2.webp" class="small-thumb img-rounded" alt="Worlds Hardest Game 2"></div>
+					<div class="list-info">
+						<div class="list-title">Worlds Hardest Game 2</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+
+				
+		<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/minecraft-classic">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/minecraft-classic.webp" class="small-thumb img-rounded" alt="Minecraft Classic"></div>
+					<div class="list-info">
+						<div class="list-title">Minecraft Classic</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/slope-city">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/slope-city.webp" class="small-thumb img-rounded" alt="Slope City"></div>
+					<div class="list-info">
+						<div class="list-title">Slope City</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+				<div class="col-md-2 col-sm-3 col-4 grid-1 animals">
+			<a href="/play/slope-tunnel">
+			<div class="game-item">
+				<div class="list-game">
+					<div class="list-thumbnail"><img src="file:///D:/Game-Store/my-Github/topvaz.github.io/images/slope-tunnel.webp" class="small-thumb img-rounded" alt="Slope Tunnel"></div>
+					<div class="list-info">
+						<div class="list-title">Slope Tunnel</div>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>					
+						
+
+
+
+
+</div> <!-- end new-games-section -->
+	
+
+	<div style="padding-bottom: 20px"  align="center">
+	</div>
+
+
+
+
+
+
+
+
+<!-- 	<div class="banner-ad-wrapper">
+			<div class="banner-ad-content" style="padding: 20px 0; text-align: center;"><img src="https://cdn.redfoc.com/img/banner-2.png" alt="banner"></div>
+		</div>	
+	</div> -->
+
+
+
+	<div class="container">
+		<div class="border-line mt-4"></div>
+	</div>
+
+
+
+
+
+
+<!-- 	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 mb-5 mb-lg-0">
+					<h4 class="">FOOTER 1</h4>x1111			</div>
+				<div class="col-lg-4 mb-5 mb-lg-0">
+					<h4 class="">FOOTER 2</h4>x2222				</div>
+				<div class="col-lg-4">
+					<h4 class="">FOOTER 3</h4>x333			</div>
+			</div>
+		</div>
+	</footer>
+ -->
+
+	<div class="footer-copyright py-4">
+		<div class="container">
+			topVAZ Games© 2023. All rights reserved.			<span class="dsb-panel">
+				topVAZ			</span>
+		</div>
+	</div>
+	<script type="text/javascript" src="file:///D:/Game-Store/my-Github/topvaz.github.io/assets/js/jquery-3.6.2.min.js"></script>
+	<script type="text/javascript" src="file:///D:/Game-Store/my-Github/topvaz.github.io/assets/js/popper.min.js"></script>
+	<script type="text/javascript" src="file:///D:/Game-Store/my-Github/topvaz.github.io/assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="file:///D:/Game-Store/my-Github/topvaz.github.io/assets/js/jquery-comments.min.js"></script>
+	<script type="text/javascript" src="file:///D:/Game-Store/my-Github/topvaz.github.io/assets/js/script.js"></script>
+	<script type="text/javascript" src="file:///D:/Game-Store/my-Github/topvaz.github.io/assets/js/custom.js"></script>
+  
+
+	  </body>
+</html>
+
+
+
+	
+
+
+
 
 

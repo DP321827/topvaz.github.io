@@ -56,6 +56,9 @@ ul.user-links.hidden {
 	font-weight: bold;
 	margin-top: 20px;
 }
+.user-page {
+	background-color: #f6f8fb;
+}
 .user-page .single-title {
 	margin-top: 0;
 	margin-bottom: 10px;
@@ -82,16 +85,14 @@ ul.user-links.hidden {
 }
 .profile-game-item {
 	max-width: 80px;
+	border-radius: 10px;
 	overflow: hidden;
 	margin-right: 15px;
 }
-.profile-game-item img {
-	border-radius: 15px;
-}
-.profile-gamelist {
+.profile-gamelist-horizontal {
 	position: relative;
 }
-.profile-gamelist ul {
+.profile-gamelist-horizontal ul {
 	overflow: hidden;
 	white-space: nowrap;
 	display: block;
@@ -100,14 +101,14 @@ ul.user-links.hidden {
 	margin-bottom: 0;
 }
 
-.profile-gamelist li {
+.profile-gamelist-horizontal li {
 	display: inline-block;
 	text-align: center;
 }
 
 .profile-comment-item {
 	position: relative;
-	border: 1px solid rgba(255,255,255,0.1);;
+	border: 1px solid #dcdfe3;
 	padding: 15px;
 	border-radius: 10px;
 	margin-top: 20px;
@@ -120,20 +121,22 @@ ul.user-links.hidden {
 .btn-left {
 	position: absolute;
 	left: 0;
-	background: linear-gradient(270deg, rgba(140,88,250,1) 0%, rgba(103,88,250,1) 100%);
+	background-color: #fff;
+	border-radius: 50%;
 	top: 14px;
 	margin: 5px;
 	box-shadow: 0 0 5px 0 rgba(0,0,0,0.3);
-	border: none;
+	z-index: 1;
 }
 .btn-right {
 	position: absolute;
 	right: 0;
-	background: linear-gradient(270deg, rgba(140,88,250,1) 0%, rgba(103,88,250,1) 100%);
+	background-color: #fff;
+	border-radius: 50%;
 	top: 14px;
 	margin: 5px;
 	box-shadow: 0 0 5px 0 rgba(0,0,0,0.3);
-	border: none;
+	z-index: 1;
 }
 .label-xp {
 	color: #d6793a;
@@ -163,17 +166,4 @@ input[type=radio]:checked + label>img {
 .avatar-chooser {
 	margin-right: 0;
 	margin-left: 0;
-}
-
-.control input, .control textarea {
-	background: #3f3f68;
-	border: none;
-	color: #acacb5;
-}
-
-.radio:hover {
-	color: unset;
-}
-.avatar-chooser .column {
-	padding: 5px;
 }
